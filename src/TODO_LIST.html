@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What todo? LIST!</title>
+    <link rel="stylesheet" href="../css/todoo.css" />
+  </head>
+  <body>
+    <div class="mainbox">
+      <div class="top">
+        <div class="title">TODO LIST</div>
+        <div><input type="text" id="add-list" name="add-list" placeholder="在这里输入希望添加的内容"></div>
+        <button id="clear-btn">全部清除</button>
+      </div>
+      <div class="todo">
+        <div class="cont">
+          <div class="content content-up">
+            <div class="items">
+              <div class="choosenav">
+                <span>进行中</span>
+              </div>
+              <div class="dContent">
+                <div class="doing-item">
+                  <ul id="todolist">
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content content-down">
+            <div class="items">
+              <div class="choosenav">
+                <span>已完成</span>
+              </div>
+              <div class="dContent">
+                <div class="done-item">
+                  <ul id="donelist">
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="list.js"></script>
+</html>
